@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yunli - Personal Website" />
+    <meta name="keywords" content="personal website, portfolio, blog, projects" />
+    <meta name="author" content="Yunli" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta property="og:title" content="Yunli - Personal Website" />
+    <meta property="og:description" content="Yunli's Personal website featuring blog posts and projects"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://liqiang.info" />
+    <meta property="og:image" content="https://www.liqiang.info/assets/icon/avatar.jpg" />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Yunli" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Yunli - Personal Website" />
+    <meta name="twitter:description" content="Yunli's Personal website featuring blog posts and projects" />
+    <meta name="twitter:image" content="https://www.liqiang.info/assets/icon/avatar.jpg" />
+    <link rel="preconnect" href="https://liqiang.info" />
+    <link rel="preconnect" href="https://github.com" crossorigin />
+    <link rel="dns-prefetch" href="https://space.bilibili.com" />
+    <link rel="dns-prefetch" href="https://www.douban.com" />
+    <link rel="canonical" href="https://liqiang.info" />
+    <title>Yunli - Personal Website</title>
+    <script>
+      const theme = localStorage.getItem('theme') || 'system'
+      const isDark = theme === 'dark'
+      const isSysMatchDark = !!window.matchMedia('(prefers-color-scheme: dark)').matches
+      const isSysDark = theme === 'system' && isSysMatchDark
+      if (isDark || isSysDark) document.documentElement.classList.add('dark')
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
