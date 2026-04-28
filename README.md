@@ -4,6 +4,13 @@
 
 使用 Solid.js 和 UnoCSS 构建的现代简约个人主页。
 
+## 预览
+
+1. 中文界面
+![中文](/preview_cn.png)
+2. 英文界面
+![英文](/preview_en.png)
+
 ## 特性
 
 - 🎨 现代简约设计
