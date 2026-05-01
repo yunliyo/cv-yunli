@@ -1,7 +1,7 @@
 import type { SocialLink } from './types'
 
 export const siteConfig = {
-  avatarUrl: 'https://www.liqiang.info/assets/icon/avatar.jpg',
+  avatarUrl: '/favicon.ico',
 }
 
 export const socialLinks: SocialLink[] = [
